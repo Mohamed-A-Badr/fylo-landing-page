@@ -6,7 +6,6 @@
 }
 
 body{
-    font-family: "Open Sans", serif;
     font-size: 16px;
 }
 
@@ -37,4 +36,62 @@ body{
     list-style: none;
     font-weight: 400;
     font-family: "Raleway", serif;
+}
+
+/* Main content */
+
+/* Hero 1 */
+.hero-1{
+    display: flex;
+    height: 400px;
+    padding: 0 75px;
+}
+
+/* Hero 1 content */
+.hero-1_content{
+    width: 50%;
+}
+
+h1{
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+    color: hsl(243, 87%, 12%);
+}
+
+p {
+    font-family: "Open Sans", serif;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    width: 75%
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 50%;
+    margin-right: 10px;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 0;
+    background-color:hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    font-weight:bold;
+    width: 30%
+}
+::placeholder{
+    color :hsl(0, 0%, 75%)
+}
+
+.hero-1_img{
+    background-image: url("../images/illustration-1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:50%;
+    height: 100%;
+    transform: translate(15%, -15%);
 }
