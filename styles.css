@@ -93,7 +93,7 @@ button:hover{
 }
 
 .hero-1_img {
-  background-image: url("/images/illustration-1.svg");
+  background-image: url("images/illustration-1.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,7 +201,7 @@ button:hover{
 .hero-2_img {
   width: 50%;
   height: 75%;
-  background-image: url("/images/illustration-2.svg");
+  background-image: url("images/illustration-2.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
