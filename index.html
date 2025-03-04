@@ -40,8 +40,11 @@
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
-          <input type="email" name="email" placeholder="Enter your email..." />
-          <button type="button">Get Started</button>
+          <form action="">
+            <input id="email" type="email" name="email" placeholder="Enter your email..." required />
+            <button type="submit" onclick="validateEmail()">Get Started</button>
+            <span id="error-message" class="error-message">Please check your email</span>
+          </form>
         </div>
         <div class="hero-1_img"></div>
       </section>
@@ -93,10 +96,11 @@
             would be happy to help you.
           </p>
         </div>
-        <div class="hero-3_email">
-          <input type="email" name="email" placeholder="Enter your email..." />
-          <button type="button">Get Started For Free</button>
-        </div>
+        <form class="hero-3_email">
+          <input id="email-2" type="email" name="email" placeholder="Enter your email..." required />
+          <span id="error-message-2" class="error-message-2">Please check your email</span>
+          <button type="submit" onclick="validateEmail2()">Get Started For Free</button>
+        </form>
       </section>
     </main>
     <footer>
@@ -138,5 +142,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

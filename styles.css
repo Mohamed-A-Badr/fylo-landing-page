@@ -88,6 +88,10 @@ button {
   color: hsl(0, 0%, 75%);
 }
 
+button:hover{
+  background-color:#6B9BFF;
+}
+
 .hero-1_img {
   background-image: url("../images/illustration-1.svg");
   background-size: contain;
@@ -127,6 +131,10 @@ button {
   font-family: "Raleway", serif;
   font-weight: 400;
   color: hsl(170, 45%, 43%);
+}
+
+.hero-2_content a:hover{
+  color:#95DFD3;
 }
 
 /* Content link*/
@@ -253,6 +261,28 @@ button {
   font-size: 0.8rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+}
+
+
+/* Email Validation Styles */
+.error-message {
+  display: none;
+  color: hsl(354, 100%, 66%);
+  font-size: 0.7rem;
+  margin-top: 5px;
+  font-family: "Open Sans", serif;
+}
+
+input.error {
+  border: 1px solid hsl(354, 100%, 66%);
+}
+
+
+.error-message-2{
+  display: none;
+  color: hsl(240, 75%, 98%);
+  font-size: 0.8rem;
+  font-family: "Open Sans", serif;
 }
 
 /* Footer */
