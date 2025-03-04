@@ -375,3 +375,28 @@ footer{
 .col-4 img:hover {
   filter: invert(0%) sepia(93%) saturate(2044%) hue-rotate(224deg) brightness(58%) contrast(100%);
 }
+
+
+.creater{
+  background-color: hsl(243, 87%, 12%);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.creater p {
+  text-align: center;
+}
+
+.creater p > a {
+  text-decoration: none;
+  color: hsl(170, 45%, 43%);
+}
+.creater p > a:hover{
+  color: hsl(224, 93%, 58%);
+}
